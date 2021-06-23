@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="script.js" charset="utf-8"></script>
+</head>
+<body>
+
+
+  <form action="">
+    <label for="a">FirstName:</label>
+
+     <input type="text" name="" id="a"> <br><br>
+  LastName: <input type="text" name="" id=""> <br><br>
+  <label for="eml">Email:</label>
+
+   <input type="email" name="" id="eml"> <br><br>
+  password: <input type="password" name="" id=""> <br><br>
+  repassword: <input type="password" name="" id=""><br><br>
+  Gender
+  <input type="radio" name="gender" value="">Male
+  <input type="radio" name="gender" value="">Female
+  </form>
+
+
+
+
+
+
+</body>
+</html>
+s

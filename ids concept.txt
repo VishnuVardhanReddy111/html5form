@@ -1,0 +1,12 @@
+form
+should not use id1,id2,id3  use short names
+
+firstname   id1   fn
+lastname   id2    ln
+email       id3    eml
+password   id4   pwd1
+repassword   id5   pwd2
+address   id7    add
+male    id6        rdm
+female   id22   	rdf
+chekckbox   id50    chk1 chk2

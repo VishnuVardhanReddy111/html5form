@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="script.js" charset="utf-8"></script>
+</head>
+<body>
+
+
+    <form action="">
+
+      First Name: <input type="text" name="" id="fn">  <br> <br>
+      Last Name :  <input type="text" name="" id="ln"> <br><br>
+      email : <input type="email" name="" id="eml"> <br><br>
+      Password : <input type="password" name="" id="pwd1"> <br><br>
+      RePassword : <input type="password" name="" id="pwd2"> <br><br> 
+
+
+    Gender : <input type="radio" name="g" value="Male" id="rdm"> Male
+                <input type="radio" name="g" value="Female" id="rdf"> Female <br>
+
+      Location:
+      <select id="selectbox">
+          <option value="HYD">Hyderabad</option>
+          <option value="CHNI">Chennai</option>
+          <option value="BGNL">Bengalore</option>
+          <option value="PUN">Pune</option>
+          <option value="THNE">Thane</option>
+          <option value="ANE">AndheriEast</option>
+      </select>
+
+
+      <button type="button" onclick="getvalues()" name="button">Get Values</button>
+
+
+    </form>
+
+
+
+
+
+
+</body>
+</html>

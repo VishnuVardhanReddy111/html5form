@@ -1,0 +1,52 @@
+function getvalues() {
+
+
+var name1=document.getElementById('fn').value;
+alert(name1);
+
+var name2=document.getElementById('ln').value;
+alert(name2);
+
+
+var email =document.getElementById('eml').value;
+alert(email)
+
+
+
+var password1 =document.getElementById('pwd1').value;
+
+var password2 =document.getElementById('pwd2').value;
+
+
+if (password1===password2)
+ {
+   alert("Successfully Register");
+
+} else {
+ document.getElementById('pwd1').style='border:2px solid red';
+  document.getElementById('pwd2').style='border:2px solid red'
+    alert("password didnt match");
+
+}
+
+
+var rdm =document.getElementById('rdm')
+var rdf =document.getElementById('rdf')
+
+ if (rdm.checked==true)
+ {
+      alert(rdm.value);
+ }else {
+    alert(rdf.value);
+ }
+
+
+var city =document.getElementById('selectbox').value;
+alert(city);
+
+
+
+
+
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <form>
+      First Name : <input type="text" > <br> <br>
+      Last Name : <input type="text" > <br> <br>
+
+      Email address: <input type="text">   <br><br>
+    Password :  <input type="password"> <br><br>
+    RePassword :  <input type="password"> <br><br>
+
+    Gender
+              <input type="radio" name="g" id=""> Male
+              <input type="radio" name="g" id="">  Female
+            <br> <br>
+  Location:
+              <select>
+                  <option>Hyderbad</option>
+                  <option>Mumbai</option>
+                  <option>Chennai</option>
+                  <option>Tamilnadu</option>
+                  <option>Goa</option>
+                  <option>Andhaeri</option>
+              </select>  <br><br>
+
+    Games
+      <input type="checkbox" name="" id="">Chess
+      <input type="checkbox" name="" id="">cricket
+      <input type="checkbox" name="" id="">vollyboll
+      <input type="checkbox" name="" id="">Tennis
+      <br> <br>
+
+      <input type="checkbox" name="" id="">
+        I accept all The terms and Conditions
+  <br><br>
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+
+
+
+  </form>
+
+
+
+
+
+
+</body>
+</html>
